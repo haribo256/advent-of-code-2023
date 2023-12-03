@@ -1,0 +1,12 @@
+[workspace]
+members = ["day*"]
+resolver = "2"
+
+[workspace.package]
+authors = ["James Harrison"]
+edition = "2021"
+version = "0.1.0"
+
+[workspace.dependencies]
+serde = { version = "1.0.193", features = ["derive"] }
+anyhow = { version = "1.0.75" }

@@ -1,0 +1,9 @@
+[package]
+name = "day-02"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+
+[dependencies]
+serde = { workspace = true }
+anyhow = { workspace = true }
